@@ -14,7 +14,7 @@ the goal of producing code that is at least somewhat portable.
 
 The selection of implementation was purely on the convenience of
 package availability and should not be taken as endorsement or
-admonishment against any particular implementation.
+admonishment for or against any particular implementation.
 
 ** Implementations
 - GNU Prolog version 1.4.5

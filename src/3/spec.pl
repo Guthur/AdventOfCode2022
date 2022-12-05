@@ -1,4 +1,5 @@
 :- set_prolog_flag(double_quotes, chars).
+:- initialization(assert_items).
 
 % Advent of Code 2022 Day 3 Puzzle
 % https://adventofcode.com/2022/day/3
@@ -31,8 +32,6 @@ assert_items :-
     length(ItemChars, L),
     findall(N, between(1, L, N), Priorities),
     maplist(assert_item, ItemChars, Priorities).
-
-:- assert_items.
 
 % parse sequence of rucksacks
 rucksacks([R]) --> rucksack(R).

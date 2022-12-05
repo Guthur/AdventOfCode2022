@@ -1,5 +1,8 @@
 :- set_prolog_flag(double_quotes, chars).
 
+% Advent of Code 2022 Day 3 Puzzle
+% https://adventofcode.com/2022/day/3
+
 % relate character C1 by  code offset to character C2
 char_offset_char(C1, O, C2) :-
     char_code(C1, C1c),

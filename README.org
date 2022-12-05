@@ -1,0 +1,21 @@
+#+title: Advent of Code 2022 in Prolog
+#+author: Michael Compton
+#+date: <2022-12-05 Mon>
+
+* Advent of Code 2022
+
+Advent Code 2022 puzzles can be found via the following link
+https://adventofcode.com/2022
+
+* Prolog
+
+All the code has been run against multiple Prolog implementation with
+the goal of producing code that is at least somewhat portable.
+
+The selection of implementation was purely on the convenience of
+package availability and should not be taken as endorsement or
+admonishment against any particular implementation.
+
+** Implementations
+- GNU Prolog version 1.4.5
+- SWI-Prolog version 8.4.2
